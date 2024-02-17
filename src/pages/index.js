@@ -1,9 +1,19 @@
 import NavBar from './global/NavBar'
 import Home from './home/Home'
 import Footer from './global/Footer'
+import About from './About'
+import Blog from './Blog'
+import Shop from './Shop'
+import Contact from './Contact'
+import Error from './Error'
 
 export {
   NavBar,
   Home,
-  Footer
+  Footer,
+  About,
+  Blog,
+  Shop,
+  Contact,
+  Error
 }
