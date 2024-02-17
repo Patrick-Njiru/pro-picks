@@ -4,7 +4,7 @@ const NavBar = () => {
       <div className="container-fluid">
         <a className="navbar-brand h6 text-uppercase" href="#">
           <img src="" alt="logo" />
-          <span className="text-warning fw-bold">Shop</span>
+          <span className="text-orange fw-bold">Shop</span>
           <span className="text-primary fw-bold">Cart</span>
         </a>
         <button
@@ -65,7 +65,7 @@ const NavBar = () => {
               <li className="list-group-item ms-4 h6">
               <a
                   href="#create_acc"
-                  className='btn btn-warning fw-bold px-3 text-decoration-none'
+                  className='btn link-orange fw-bold px-3 text-decoration-none'
                 >
                   Create Account
                 </a>
@@ -127,7 +127,7 @@ const NavBar = () => {
               <li className="list-group-item mt-5 h6">
                 <a
                   href="#create_acc"
-                  className='btn btn-warning fw-bold px-3 text-decoration-none'
+                  className='btn link-orange fw-bold px-3 text-decoration-none'
                 >
                   Create Account
                 </a>
