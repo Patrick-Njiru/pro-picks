@@ -48,7 +48,7 @@ const ProductCard = ({section}) => {
                 
               </div>
               <div
-                className="bg-orange-75 px-3 d-flex justify-content-between align-items-center text-dark our-products_category"
+                className="bg-orange-75 px-3 d-flex justify-content-between align-items-center text-dark"
                 style={{height: '20%'}}
               >
                 <h6 className="fw-bold text-capitalize">category</h6>
@@ -60,10 +60,10 @@ const ProductCard = ({section}) => {
                   <FaStar className='h6' />
                 </div>
               </div>
-              <h5 className="text-capitalize mt-3 px-3 "> Title </h5>
+              <h5 className="text-capitalize mt-3 px-3 our-product-card_title"> Title </h5>
               <div className="d-flex justify-content-between px-3">
                 <h6 className='text-capitalize'>Brand</h6>
-                <h6 className="text-orange-75">$100.00</h6>
+                <h6 className="text-orange our-product-card_price">$100.00</h6>
               </div>
             </div>
             

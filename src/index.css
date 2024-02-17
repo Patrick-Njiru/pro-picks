@@ -35,4 +35,8 @@ a.link-orange:hover { background-color: var(--orange-75); }
 
 .clickable { cursor: pointer; }
 
-.clickable:hover { color: gray;}
+.clickable:hover { 
+  background-color: var(--orange);
+  padding: 5px 3px;
+  border-radius: 5%;
+}
