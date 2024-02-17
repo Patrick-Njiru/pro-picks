@@ -1,13 +1,14 @@
-import { useState } from 'react'
+// import { useState } from 'react'
 // import { Routes, Route } from 'react-router-dom'
 import './App.css'
-import { NavBar } from './pages'
+import { Home, NavBar } from './pages'
 
 function App() {
 
   return (
-    <div>
+    <div className='app'>
       <NavBar />
+      <Home />
     </div>
   )
 }
