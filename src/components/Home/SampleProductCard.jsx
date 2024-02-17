@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import {SiMicrosoft} from 'react-icons/si'
 
-const ProductCard = props => {
+const SampleProductCard = props => {
   return (
     <div
       className='my-4 product-card'
@@ -28,6 +28,6 @@ const ProductCard = props => {
   )
 }
 
-ProductCard.propTypes = {}
+SampleProductCard.propTypes = {}
 
-export default ProductCard
+export default SampleProductCard
