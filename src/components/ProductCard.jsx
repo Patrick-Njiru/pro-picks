@@ -9,7 +9,7 @@ const ProductCard = ({section}) => {
       {section == 'sample products' ?
         // Sample Products Card
         <div
-          className=' m-3 sample-product-card'
+          className=' m-3 sample-product-card border border-light'
           style={{
             background: 'url(https://www.picsum.photos/220) no-repeat',
             backgroundSize: '100% 100%',
@@ -31,7 +31,7 @@ const ProductCard = ({section}) => {
         : section == 'our products' ?
           // Our Products Card
           <div
-            className="rounded m-3 shadow our-product-card"
+            className="rounded m-3 shadow our-product-card border"
             style={{ height: '43vh', width: '220px' }}
           >
             <div
