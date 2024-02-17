@@ -3,3 +3,25 @@
   display: block;
   height: 40vh;
 }
+
+/* Test colors */
+/* .trial {
+  color: rgba(255, 255, 0, 0.726);
+} */
+
+.product-card .cover {
+  background: rgb(0,0,0);
+background: -webkit-gradient(linear, left bottom, left top, from(rgba(0,0,0,1)), color-stop(29%, rgba(244,244,244,0)), to(rgba(0,0,0,0)));
+background: -o-linear-gradient(bottom, rgba(0,0,0,1) 0%, rgba(244,244,244,0) 29%, rgba(0,0,0,0) 100%);
+background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(244,244,244,0) 29%, rgba(0,0,0,0) 100%);
+}
+
+.product-card {
+  top: 0;
+  transition: top linear 200ms;
+}
+
+.product-card:hover {
+  position: relative;
+  top: -3vh;
+}
