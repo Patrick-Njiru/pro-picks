@@ -5,10 +5,10 @@
   --orange-50: rgba(255, 165, 0, 0.5);
 }
 
-a.active { 
-  /* For NavLinks from react-router-dom */
-  color: #000;
-  border-bottom: 1px solid red;
+.app::before {
+  content: '';
+  display: block;
+  height: 40vh;
 }
 
 .text-orange { color: var(--orange); }
