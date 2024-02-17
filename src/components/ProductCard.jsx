@@ -20,7 +20,7 @@ const SampleProductsCard = () => (
         <div className="btn-orange btn-sm rounded-circle me-2 px-2 py-1">
           <SiMicrosoft className='h6 mt-1' />
         </div>
-        <span className="text-light h5">Category</span>
+        <span className="text-light h6">Category</span>
       </div>
     </div>
   </div>

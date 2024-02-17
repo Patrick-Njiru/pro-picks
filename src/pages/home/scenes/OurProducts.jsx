@@ -14,11 +14,11 @@ const OurProducts = props => {
           className="d-flex justify-content-between align-items-center mx-center"
           style={{ maxWidth: '100%' }}
         >
-          <btn className="mx-1 mx-sm-2 h6 clickable">All</btn>
-          <btn className="mx-1 mx-sm-2 h6 clickable">Shoes</btn>
-          <btn className="mx-1 mx-sm-2 h6 clickable">Bags</btn>
-          <btn className="mx-1 mx-sm-2 h6 clickable">Phones</btn>
-          <btn className="mx-1 mx-sm-2 h6 clickable">Beauty</btn>
+          <button className="mx-1 mx-sm-2 h6 border-0 p-1 clickable">All</button>
+          <button className="mx-1 mx-sm-2 h6 border-0 p-1 clickable">Shoes</button>
+          <button className="mx-1 mx-sm-2 h6 border-0 p-1 clickable">Bags</button>
+          <button className="mx-1 mx-sm-2 h6 border-0 p-1 clickable">Phones</button>
+          <button className="mx-1 mx-sm-2 h6 border-0 p-1 clickable">Beauty</button>
         </div>
       </div>
       <div className="d-flex justify-content-evenly align-items-center flex-wrap">
