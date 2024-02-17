@@ -1,12 +1,11 @@
-import React from 'react'
-import PropTypes from 'prop-types'
+const Error = () => (
+  <div className='container' style={{ height: '50vh' }}>
+    <div className="alert alert-danger h1 text-uppercase p-5">
+      The Page you are looking for does not exist!
+    </div>
 
-const Error = props => {
-  return (
-    <div>Error</div>
-  )
-}
+  </div>
+)
 
-Error.propTypes = {}
 
 export default Error
