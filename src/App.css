@@ -1,0 +1,5 @@
+.app::before {
+  content: '';
+  display: block;
+  height: 40vh;
+}
