@@ -3,8 +3,12 @@ const NavBar = () => {
     <nav className="navbar navbar-expand-lg fixed-top bg-body-tertiary px-5">
       <div className="container-fluid">
         <a className="navbar-brand h6 text-uppercase" href="#">
-          <img src="" alt="logo" />
-          <span className="text-orange fw-bold">Shop</span>
+          <img
+            src="https://www.picsum.photos/30"
+            alt="app logo"
+            className='img-fluid rounded-circle d-none d-sm-inline'
+          />
+          <span className="text-orange fw-bold ms-2">Shop</span>
           <span className="text-primary fw-bold">Cart</span>
         </a>
         <button

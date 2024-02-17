@@ -1,8 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import SampleProductCard from '../../../components/Home/SampleProductCard'
+import { ProductCard } from '../../../components'
 
-const Products = props => {
+const SampleProducts = props => {
   return (
     <div className='' style={{ marginTop: '25vh' }}>
       <div className="text-center mb-5">
@@ -10,18 +10,18 @@ const Products = props => {
         <h2 className='fw-bold'>Buy Everything With Us</h2>
       </div>
       <div className="d-flex justify-content-evenly align-items-center flex-wrap">
-        <SampleProductCard />
-        <SampleProductCard />
-        <SampleProductCard />
-        <SampleProductCard />
-        <SampleProductCard />
-        <SampleProductCard />
+        <ProductCard section='sample products' />
+        <ProductCard section='sample products' />
+        <ProductCard section='sample products' />
+        <ProductCard section='sample products' />
+        <ProductCard section='sample products' />
+        <ProductCard section='sample products' />
       </div>
-      <button className="btn btn-light border-orange px-3 mx-auto mt-5">Get Started Now</button>
+      <button className="btn btn-light border border-2 border-warning px-3 mx-auto mt-5">Get Started Now</button>
     </div>
   )
 }
 
-Products.propTypes = {}
+SampleProducts.propTypes = {}
 
-export default Products
+export default SampleProducts

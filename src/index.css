@@ -5,6 +5,12 @@
   --orange-50: rgba(255, 165, 0, 0.5);
 }
 
+a.active { 
+  /* For NavLinks from react-router-dom */
+  color: #000;
+  border-bottom: 1px solid red;
+}
+
 .text-orange { color: var(--orange); }
 
 .text-orange-75 { color: var(--orange-75); }
@@ -23,4 +29,10 @@ a.link-orange:hover { background-color: var(--orange-75); }
 
 .bg-orange { background: var(--orange);}
 
-.bg-orange-50 { background: var(--orange-75);}
+.bg-orange-50 { background: var(--orange-50);}
+
+.bg-orange-75 { background: var(--orange-75);}
+
+.clickable { cursor: pointer; }
+
+.clickable:hover { color: gray;}
