@@ -1,6 +1,6 @@
 const NavBar = () => {
   return (
-    <nav className="navbar navbar-expand-lg fixed-top bg-body-tertiary px-5">
+    <nav className="navbar navbar-expand-lg fixed-top px-5" style={{background: 'rgba(254,254,254,0.8)'}}>
       <div className="container-fluid">
         <a className="navbar-brand h6 text-uppercase" href="#">
           <img
@@ -29,7 +29,7 @@ const NavBar = () => {
               <li className="list-group-item mx-2 h6">
                 <a
                   href="#"
-                  className='link-primary text-decoration-none'
+                  className='link-dark text-decoration-none'
                 >
                   Home
                 </a>
@@ -37,7 +37,7 @@ const NavBar = () => {
               <li className="list-group-item mx-2 h6">
                 <a
                   href="#shop"
-                  className='link-primary text-decoration-none'
+                  className='link-dark text-decoration-none'
                 >
                   Shop
                 </a>
@@ -45,7 +45,7 @@ const NavBar = () => {
               <li className="list-group-item mx-2 h6">
                 <a
                   href="#blog"
-                  className='link-primary text-decoration-none'
+                  className='link-dark text-decoration-none'
                 >
                   Blog
                 </a>
@@ -53,7 +53,7 @@ const NavBar = () => {
               <li className="list-group-item mx-2 h6">
                 <a
                   href="#about"
-                  className='link-primary text-decoration-none'
+                  className='link-dark text-decoration-none'
                 >
                   About
                 </a>
@@ -61,7 +61,7 @@ const NavBar = () => {
               <li className="list-group-item mx-2 h6">
                 <a
                   href="#contact"
-                  className='link-primary text-decoration-none'
+                  className='link-dark text-decoration-none'
                 >
                   Contact
                 </a>
@@ -91,7 +91,7 @@ const NavBar = () => {
             <li className="list-group-item my-4 h6">
                 <a
                   href="#"
-                  className='link-primary text-decoration-none'
+                  className='link-dark text-decoration-none'
                 >
                   Home
                 </a>
@@ -99,7 +99,7 @@ const NavBar = () => {
               <li className="list-group-item my-4 h6">
                 <a
                   href="#shop"
-                  className='link-primary text-decoration-none'
+                  className='link-dark text-decoration-none'
                 >
                   Shop
                 </a>
@@ -107,7 +107,7 @@ const NavBar = () => {
               <li className="list-group-item my-4 h6">
                 <a
                   href="#blog"
-                  className='link-primary text-decoration-none'
+                  className='link-dark text-decoration-none'
                 >
                   Blog
                 </a>
@@ -115,7 +115,7 @@ const NavBar = () => {
               <li className="list-group-item my-4 h6">
                 <a
                   href="#about"
-                  className='link-primary text-decoration-none'
+                  className='link-dark text-decoration-none'
                 >
                   About
                 </a>
@@ -123,7 +123,7 @@ const NavBar = () => {
               <li className="list-group-item my-4 h6">
                 <a
                   href="#contact"
-                  className='link-primary text-decoration-none'
+                  className='link-dark text-decoration-none'
                 >
                   Contact
                 </a>
