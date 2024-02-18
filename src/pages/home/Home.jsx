@@ -5,7 +5,7 @@ import './home.css'
 
 const Home = props => {
   return (
-    <div className='text-center'>
+    <div className='text-center home'>
       <div className="container">
         <h1 className="text-capitalize my-4">
           Search your one from

@@ -24,7 +24,7 @@ const WorkShopRegistration = () => {
             <input type="text" placeholder='Username' className='border-0 my-2 py-2 w-100 rounded' />
             <input type="email" placeholder='Email' className='border-0 my-2 py-2 w-100 rounded' />
             <input type="tel" placeholder='Phone' className='border-0 my-2 py-2 w-100 rounded' />
-            <button className="btn-orange rounded border-0 p-2 fw-bold my-2">Register Now</button>
+            <button className="btn-orange rounded border-0 p-2 fw-bold my-2">Register</button>
           </form>
         </div>
       </div>

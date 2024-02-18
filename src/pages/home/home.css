@@ -1,3 +1,9 @@
+.home::before {
+  content: '';
+  display: block;
+  height: 40vh;
+}
+
 /* ProductCard Component */
 .sample-product-card .cover {
   background: rgb(0,0,0);

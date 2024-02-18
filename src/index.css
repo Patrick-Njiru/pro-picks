@@ -7,12 +7,6 @@
 
 * { font-family: 'Lato', 'Montserrat', sans-serif; }
 
-.app::before {
-  content: '';
-  display: block;
-  height: 40vh;
-}
-
 .text-orange { color: var(--orange); }
 
 .text-orange-75 { color: var(--orange-75); }
