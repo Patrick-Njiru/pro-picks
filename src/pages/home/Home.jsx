@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { SearchForm, SampleProducts, OurProducts, WorkShopRegistration } from './scenes'
+import { SearchForm, SampleProducts, OurProducts, WorkShopRegistration, Map } from './scenes'
 import './home.css'
 
 const Home = props => {
@@ -18,6 +18,7 @@ const Home = props => {
         <OurProducts />
       </div>
       <WorkShopRegistration />
+      <Map />
     </div>
   )
 }
