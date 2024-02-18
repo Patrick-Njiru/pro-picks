@@ -7,15 +7,15 @@ const Home = props => {
   return (
     <div className='text-center'>
       <div className="container">
-        {/* <h1 className="text-capitalize my-3">
+        <h1 className="text-capitalize my-4">
           Search your one from
           <span className='text-orange mx-2'>Thousands</span>
           of products
         </h1>
         <SearchForm />
-        <h6 className="lead text-capitalize my-3">we have the largest collection of products</h6>
+        <h6 className="lead text-capitalize my-5">we have the largest collection of products</h6>
         <SampleProducts />
-        <OurProducts /> */}
+        <OurProducts />
       </div>
       <WorkShopRegistration />
     </div>

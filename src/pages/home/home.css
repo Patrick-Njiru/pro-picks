@@ -1,5 +1,4 @@
-/* HOME PAGE */
-  /* ProductCard Component */
+/* ProductCard Component */
 .sample-product-card .cover {
   background: rgb(0,0,0);
   background: -webkit-gradient(linear, left bottom, left top, from(rgba(0,0,0,1)), color-stop(29%, rgba(244,244,244,0)), to(rgba(0,0,0,0)));
@@ -36,9 +35,11 @@ div.our-product-card_img {
 
 div.our-product-card_img:hover { background-size: 107% 107%; }
 
+
+/* WorkShopRegistration Component */
 .workshop-form {
   background: rgb(0,0,0);
   background: -webkit-gradient(linear, left bottom, left top, from(rgba(0,0,0,0.01)), color-stop(5%, rgba(0,0,0,0)), color-stop(98%, rgba(254,254,254,1)));
   background: -o-linear-gradient(bottom, rgba(0,0,0,0.01) 0%, rgba(0,0,0,0) 5%, rgba(254,254,254,1) 98%);
   background: linear-gradient(0deg, rgba(0,0,0,0.01) 0%, rgba(0,0,0,0) 5%, rgba(254,254,254,1) 98%);
-  }
+}

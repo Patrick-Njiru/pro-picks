@@ -1,9 +1,11 @@
 :root {
-  font-family: '';
   --orange: rgba(255, 165, 0, 1);
   --orange-75: rgba(255, 165, 0, 0.75);
   --orange-50: rgba(255, 165, 0, 0.5);
+  box-sizing: border-box;
 }
+
+* { font-family: 'Lato', 'Montserrat', sans-serif; }
 
 .app::before {
   content: '';
